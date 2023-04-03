@@ -1,0 +1,96 @@
+.navbar {
+  font-size: 16px;
+  box-shadow: 0 -3px 10px black;
+}
+
+.nav-link {
+    color: black !important;
+}
+
+.nav-padding {
+  padding: 8px 16px !important;
+  font-weight: 700;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.brand-pad {
+  padding-left: 25px;
+}
+
+.ls {
+  letter-spacing: 4px;
+}
+
+.main-img {
+  position: relative;
+  top: -55px;
+  max-width: 100%;
+}
+
+.main-heading {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
+
+.main-heading > strong {
+  padding: 8px 15px;
+  font-weight: bolder;
+}
+
+.main-heading > spam {
+  font-weight: 500;
+}
+
+.section {
+  max-width: 96%;
+  margin: auto;
+  padding-top: 1rem;
+  padding-bottom: 3.8rem;
+}
+
+hr {
+  border: 1px solid rgb(211, 211, 211) !important;
+}
+
+.project-img {
+  max-width: 105%;
+}
+
+.project-text {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.card-title {
+  font-weight: 400;
+}
+
+.button-color {
+  background-color: rgba(169, 169, 169, 0.2) !important;
+}
+
+.card-img-top {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(70%) !important;
+}
+
+.btn {
+  font-weight: 500 !important;
+}
+
+input {
+  border: 1px solid rgba(169, 169, 169, 0.5);
+  font-size: 17px !important;
+}
+
+.fotter-img {
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
