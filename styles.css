@@ -38,6 +38,7 @@
   position: absolute;
   top: 50%;
   left: 40%;
+  font-size: 2.2rem;
 }
 
 .main-heading > strong {
@@ -45,8 +46,8 @@
   font-weight: bolder;
 }
 
-.main-heading > spam {
-  font-weight: 500;
+.main-heading > span {
+  font-weight: 400 !important;
 }
 
 .section {
