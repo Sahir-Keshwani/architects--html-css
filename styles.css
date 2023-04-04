@@ -7,6 +7,10 @@
     color: black !important;
 }
 
+.nav-link:hover {
+  background-color: #d3d3d3;
+}
+
 .nav-padding {
   padding: 8px 16px !important;
   font-weight: 700;
@@ -74,6 +78,10 @@ hr {
   background-color: rgba(169, 169, 169, 0.2) !important;
 }
 
+.button-color:hover {
+  background-color: rgba(169, 169, 169, 0.6) !important;
+}
+
 .card-img-top {
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(70%) !important;
@@ -88,9 +96,41 @@ input {
   font-size: 17px !important;
 }
 
+.send-btn:hover {
+  color: black !important;
+  background-color: #d3d3d3 !important;
+}
+
 .fotter-img {
   max-width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+
+@media screen and (max-width: 769px) {
+  .main-heading {
+    left: 30%;
+  }
+
+  .section {
+    max-width: 92%;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .main-heading {
+    top: 25%;
+    left: 40%;
+    font-size: 2.3rem;
+  }
+
+  .main-heading > span {
+    display: none;
+  }
+
+  .section {
+    max-width: 85%;
+  }
 }
